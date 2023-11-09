@@ -69,10 +69,19 @@
 }
 
 .ex-7-img {
-    transition: 1s;
+    transition: 3s;
 }
 .ex-7-img:hover {
-    filter: blur(5px) invert(1);
+    filter: blur(5px) invert(100%);
+}
+
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(80%) saturate(200%);
+    border-radius: 20%;
 }
 
 .ex-9-img {
