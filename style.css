@@ -50,13 +50,11 @@
 }
 
 .ex-5-square:hover {
-    width: 90px;
-    height: 90px;
+    transform: scale(2);
 }
 
 .ex-5-square:active{
-    width: 30px;
-    height: 30px;
+    transform: scale(0.5);
 }
 
 .ex-6-img, .ex-7-img, .ex-8-img {
@@ -68,6 +66,13 @@
 }
 .ex-6-img:hover {
     filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: 1s;
+}
+.ex-7-img:hover {
+    filter: blur(5px) invert(1);
 }
 
 .ex-9-img {
